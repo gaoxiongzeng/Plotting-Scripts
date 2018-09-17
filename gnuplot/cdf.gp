@@ -16,5 +16,5 @@ set style line 1 lc rgb 'blue' lt 1 lw 4 dashtype 2
 set style line 2 lc rgb 'green' lt 2 lw 3
 set style line 3 lc rgb 'orange' lt 3 lw 4
 
-plot 'cachefollower_load0.4_withoutaeolus_fct_100k.txt' using 2:1 with lines ls 1 title '{/Times=30 Scheme 1}',\
-     'cachefollower_load0.4_withaeolus_fct_100k.txt' using 2:1 with lines ls 3 title '{/Times=30 Scheme 2}',\
+plot 'scheme1.txt' using 2:1 with lines ls 1 title '{/Times=30 Scheme 1}',\
+     'scheme2.txt' using 2:1 with lines ls 3 title '{/Times=30 Scheme 2}',\
